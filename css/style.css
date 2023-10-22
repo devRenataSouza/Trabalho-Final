@@ -1,0 +1,146 @@
+body, h1, h2, p, ul, li, form, label, input, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    padding-top: 60px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #F2F2F2;
+    color: #111;
+    font-weight: 500;
+}
+
+/* Estilização da Barra de Navegação */
+nav {
+    padding: 2em 0;
+    background-color: #404959;
+}
+
+h1{
+    color: #68A6A6;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:#F2F2F2;  /* Cor de texto dos links */
+    text-decoration: none;
+    transition: color 0.3s;
+    background-color: #F26BCE;
+    border-radius: 4px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #68A6A6;
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Estilização das Seções */
+section {
+    padding: 2em 5%;
+    border-bottom: 1px solid #e1e5ed;  /* linha separadora entre seções */
+}
+
+h1, h2 {
+    margin-bottom: 1em;
+}
+h2 {
+    color: #BF7E9D;
+}
+
+/* Estilização dos links do portfólio */
+#portfolio a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#portfolio a:hover {
+    color: #0056b3;  /* Cor mais escura para hover */
+}
+
+/* Estilização do Formulário */
+form {
+    max-width: 400px;
+    margin-top: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;  /* Borda dos campos do formulário */
+    border-radius: 5px;  /* Cantos arredondados */
+}
+
+input[type="submit"] {
+    background-color: #F26BCE;  /* Cor do botão de envio */
+    color:#F2F2F2;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;  /* Cantos arredondados do botão */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #aaa;  /* Cor do botão de envio quando passa o mouse */
+}
+
+section img{
+    width: 300px;
+    border-radius: 4px;
+}
+
+strong {
+    color: #F26BCE;
+}
+
+.container {
+    background-color: #fff;
+    width: 70%;
+}
+
+footer {
+    background-color: #404959;
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 12px;
+    padding: 2em 0;
+    text-align: center;
+}
